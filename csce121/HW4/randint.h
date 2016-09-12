@@ -1,0 +1,3 @@
+// randint header
+
+int randint();
