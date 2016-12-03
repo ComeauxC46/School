@@ -1,0 +1,19 @@
+READ ME:
+
+Client Default Arguments:
+    int n = 10; //default number of requests per "patient"
+    int b = 50; //default size of request_buffer
+    int w = 10; //default number of worker threads
+    string h = "linux.cse.tamu.edu";
+    int p = 6969; //default port
+	
+	
+DataServer Default Arguments:
+	int p = 6969; //default port
+    int backlog = 10; //default backlog
+	
+Connection only works from compute.cse.tamu.edu to linux.cse.tamu.edu 
+meaning the dataserver is running on linux.cse.tamu.edu and the client is running
+on compute.cse.tamu.edu.
+
+Also, the connect works from compute.cse.tamu.edu to compute.cse.tamu.edu.
